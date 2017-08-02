@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>YandexForm</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <script src="index.js"></script>
+  <script src="include/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+  <link  href="include/bootstrap-2.3.2-dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="include/bootstrap-2.3.2-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <form id="myForm" method="post" action="">
+    <div class="info">ФИО:</div>
+    <input type="text" name="fio" placeholder="Иванов Иван Иванович*">
+    <div class="info">Email:</div>
+    <input type="email" name="email" placeholder="ivanov.ivan@yandex.ru*">
+    <div class="info">Телефон:</div>
+    <input type="tel" name="phone" placeholder="+7(999)999-99-99*">
+    <input class="btn btn-primary" id="submitButton" type="button" value="Отправить форму" onclick="MyForm.submit()">
+  </form>
+  <div id="resultContainer"></div>
+</body>
+</html>

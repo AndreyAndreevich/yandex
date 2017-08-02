@@ -1,0 +1,36 @@
+form#myForm {
+  display: block;
+  width: 600px;
+  height: 500px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#myForm .info{
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 4px;
+  font-size: 14px;
+  margin: 6px 0;
+  width: 100px;
+  height: 20px;
+  font-weight: 700;
+  text-align: right;
+}
+
+#myForm input[type="text"],
+#myForm input[type="email"],
+#myForm input[type="tel"]
+{
+  width: 474px;
+  margin: 6px 0;
+}
+
+#submitButton {
+  margin-left: 108px;
+}
+
+.error {
+  border: 1px solid red !important;
+}
